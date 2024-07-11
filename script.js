@@ -48,17 +48,17 @@
 // const square = 3.14 * radius ** 2;
 // alert('площадь окружности' + square); // домашки
 
-console.log(1 == 1);
+// console.log(1 == 1);
 
-console.log(1 === '1');
+// console.log(1 === '1');
 
-console.log(!false); //! как частица нет, не фолс это тру
+// console.log(!false); //! как частица нет, не фолс это тру
 
-console.log(1 >= 0);
-console.log(1 <= 0);
+// console.log(1 >= 0);
+// console.log(1 <= 0);
 
-console.log(1 != "1");
-console.log(1 !== "1");
+// console.log(1 != "1");
+// console.log(1 !== "1");
 
 // 1 вариант
 // if(2 < 0){
@@ -197,26 +197,219 @@ console.log(1 !== "1");
 //     default:
 //         alert('вы ничего не знаете');
 //         break;
+// // }
+
+// const x = +prompt('введите число 1');
+// const y = +prompt('введите число 2');
+// const sign = prompt('введите знак');
+
+// switch (sign) {
+//     case '+':
+//         alert(`${x + y}`);
+//         break;
+//     case '-':
+//         alert(`${x - y}`);
+//         break;
+//     case '/':
+//         alert(`${x / y}`);
+//         break;  
+//     case '*':
+//         alert(`${x * y}`)
+//         break;  
+//     default:
+//         break;
 // }
 
-const x = +prompt('введите число 1');
-const y = +prompt('введите число 2');
-const sign = prompt('введите знак');
+//  11/07/2024
+    //  ЦИКЛЫ
 
-switch (sign) {
-    case '+':
-        alert(`${x + y}`);
-        break;
-    case '-':
-        alert(`${x - y}`);
-        break;
-    case '/':
-        alert(`${x / y}`);
-        break;  
-    case '*':
-        alert(`${x * y}`)
-        break;  
-    default:
-        break;
-}
+// for (let i = 0; i < 10; i++) {
+//     // if (i === 2) {
+//     //     continue;
+//     // }
+//     // console.log(i);
+//     // if (i === 5){
+//     //     break;
+//     // }   
+//     // можно и так и так
+//     if (i === 2) continue;
+//     console.log(i);
+//     if (i === 5) break;
+// }
 
+
+// let x = 0;
+// while (x < 10) {
+//     console.log(x);
+//     x++;
+// }
+
+// let y = 0;
+// do {
+//     console.log(y);
+//     y++;
+// } while (y < 10);
+
+// for (let i = 0; i < 3; i++) {
+//     setTimeout(function() => {
+//         console.log(i);
+//     }, 1000);
+    
+// }
+
+    // ФУНКЦИИ
+
+// function sayHello() {
+//     console.log('Привет мир');
+// }
+// sayHello()
+
+// for (let index = 0; index < 10; index++) {
+//     sayHello();
+    
+// }
+
+// function compareValues(a, b){
+//     if (a > b){
+//         console.log('a > b');
+//     } else {
+//         console.log('a < b');
+//     }
+// }
+// compareValues(10, 20);
+// compareValues(15, 10);
+// compareValues(35, 100);
+
+// function sum(a,b) {
+//     return a + b;
+// }
+// console.log(sum(10, 10));
+
+// function sum(a,b) {
+//     let funcValue = 'Выведи меня';
+//     return a + b;
+// }
+// console.log(funcValue);
+// console.log(sum(10, 10));
+
+// function sum(a,b) {
+//     let funcValue = 'Выведи меня';
+//     console.log(funcValue);
+//     return a + b;
+// }
+// console.log(sum(10, 10));
+// console.log(funcValue);
+
+
+
+// console.log(sum(10, 10));
+
+// function sum(a,b) {
+//     let funcValue = 'Выведи меня';
+
+//     return a + b;
+// }
+
+
+// console.log(sum(10, 10));
+// const h = 10;
+// function sum(a, b, h) {
+//     let funcValue = 'Выведи меня';
+//     h = 20;
+//     console.log(h);
+//     return a + b;
+// }
+// console.log(h);
+
+
+       // Второй способ вызова функции
+
+// const sum = function (a, b) {
+//     return a + b;
+// }
+// console.log(sum(10, 10));
+
+      // Третий способ вызова функции (стрелочная функция)
+
+// const sum = (a, b) => a + b;
+// console.log(sum(10, 10));
+
+     // Анонимная функция
+// const sum = (a, b) => a + b;
+// (function () {
+//     alert('анонимная функция');
+
+// })();
+
+// ( () => {
+//     alert('стрелочная функция')
+// })();
+// console.log(sum(10, 10));
+
+//    ЗАДАЧКИ
+//    1.ВВЕДИТЕ ЧИСЛА ОТ 1 ДО 10
+// for (let x = 1; x < 11; x++){
+//     console.log(x);
+// }
+
+//    2.Вывести четные числа от 1 до 20.
+// Вариант 1
+// for (let x = 1; x <= 20; x++){
+//     if (x % 2 === 0){
+//         console.log(x);
+//     }  
+// }
+// Вариант 2
+// for (let x = 1; x <= 20; x++){
+//     if (x % 2 !== 0){
+//         continue;
+//     }  
+//     console.log(x);
+// }
+// Вариант 3
+// for (let x = 2; x <= 20; x += 2){      (x = x + 2)
+//     console.log(x);
+// }
+
+    // 3.Вывести числа от 1 до 10 в обратном порядке.
+// for (let x = 10; x >= 1; x--){
+//     console.log(x);  
+// }
+
+    // 4.Найти сумму чисел от 1 до 100.
+// const sum = 0;
+// for (let i = 1; i <= 100; i++){
+//     sum += i;
+// // sum = sum + i
+// }
+// console.log(sum);  
+
+    // 5.Таблица умножения для числа 5, которое выводит пользователь
+// const value = prompt('введите число');
+// for (let i = 1; i <= 10; i++){
+//     console.log(value * i);
+// }
+
+    // 6.Вывести числа от 1 до 100, которые являются числами фибоначи
+
+// let a = 0;
+// let b = 1;
+// console.log(a);
+// console.log(b);
+// while (true) {
+//     let sum = a + b;
+//     if (sum > 100) {
+//         break;
+//     }
+//     console.log(sum);
+//     a = b;
+//     b = sum;
+// }
+
+let firstValue = 'Первая строка';
+let secondValue = 'Вторая строка';
+
+let ThirdValue = firstValue;
+
+firstValue = secondValue;
+secondValue = firstValue;
