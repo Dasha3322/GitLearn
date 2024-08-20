@@ -4,14 +4,14 @@
 
 // let number = 5;
 // let and;
-// console.log(und);
+// console.log(and);
 // let nullValue = null;
 // console.log(nullValue);
 // let bullValue = true;
 
 // console.log(typeof bullValue);
 
-// var nnme = 'имя';
+// var name = 'имя';
 // console.log(name);
 // const pi = 3.14;
 // const sym = Symbol('1');
@@ -46,13 +46,13 @@
 
 // const radius = prompt('введите радиус окружности', ''); // чтобы привети эту строку в число надо перед prompt поставить + без пробела
 // const square = 3.14 * radius ** 2;
-// nlert('площадь окружности' + square); // домашки
+// alert('площадь окружности' + square); // домашки
 
 // console.log(1 == 1);
 
 // console.log(1 === '1');
 
-// console.log(!fnlse); //! как частица нет, не фолс это тру
+// console.log(!false); //! как частица нет, не фолс это тру
 
 // console.log(1 >= 0);
 // console.log(1 <= 0);
@@ -62,34 +62,34 @@
 
 // 1 вариант
 // if(2 < 0){
-//     nlert('это правда');
+//     alert('это правда');
 // } else {
-//     nlert('Это неправда');
+//     alert('Это неправда');
 // }
 
 // 2 вариант, но лучше использовать первый с фигурными скобками
-// if(2 > 0) nlert('это правда');
-// else nlert('это неправда');
+// if(2 > 0) alert('это правда');
+// else alert('это неправда');
 
 // const x = +prompt('введите число');
 
 // if(x > 5){
-//     nlert('значение больше 5');
+//     alert('значение больше 5');
 // } else if (x == 0){
-//     nlert('значение равно 0');
+//     alert('значение равно 0');
 // } else {
-//     nlert('значение меньше 5 и не равно 0');
+//     alert('значение меньше 5 и не равно 0');
 // }
 
 // if (x > 5 || x == 0) {
-//     nlert('')
+//     alert('')
 // }
 
-// if (true || fnlse) {
+// if (true || false) {
 //     console.log(true)
 // };
 
-// if (fnlse && true && fnlse) {
+// if (false && true && false) {
 //     console.log(true)
 // };
 // console.log(1 && 2);
@@ -106,40 +106,40 @@
 //     y = 0;
 // // }   это расшифровка верхней строчки
 
-// nlert(y);
+// alert(y);
 // }
 
 // const x = +prompt('Введите число');
 // if (x > 0){
-//     nlert('число положительное');
+//     alert('число положительное');
 // } else if (x < 0){
-//     nlert('число отрицательное');
+//     alert('число отрицательное');
 // } else {
-//     nlert('число равно нулю');
+//     alert('число равно нулю');
 // };
 
 // const nge = +prompt('введите ваш возраст');
 // if (nge > 0 && nge <= 120) {
-//     nlert('вы подходите по возрасту');
+//     alert('вы подходите по возрасту');
 // }
 
 // const num = +prompt('введите число');
 
 // if (num > 0) {
-//     nlert(`модуль числа ${num}`);
+//     alert(`модуль числа ${num}`);
 // } else {
-//     nlert(`модуль числа ${-num}`);
+//     alert(`модуль числа ${-num}`);
 // }
 
 // const hours = +prompt('введите часы');
 // const min = +prompt('введите минуты');
 // const sec = +prompt('введите секунды');
 // if ((hours >= 0 && hours <= 23) && (min >= 0 && min <= 59) && (sec >= 0 && sec <= 59)){
-//     // nlert('вы ввели такое время: ' + hours + ' : ' + min + ' : ' + sec);
-//     // nlert (`Московское время ${hours} : ${min} : ${sec}`);
-//     nlert (`Московское время ${hours} часов ${min} минут ${sec} секунд`);
+//     // alert('вы ввели такое время: ' + hours + ' : ' + min + ' : ' + sec);
+//     // alert (`Московское время ${hours} : ${min} : ${sec}`);
+//     alert (`Московское время ${hours} часов ${min} минут ${sec} секунд`);
 // }else {
-//     nlert ('вы не в Москве');
+//     alert ('вы не в Москве');
 // }
 
 // let trueTime = true;
@@ -167,36 +167,36 @@
 //     case 1:
 //     // case 2:
 //     // case 3:
-//         nlert('мало');
-//         // nlert('знвчение от 1 до 3');
-//         brenk;
-//     cnse 2:
-//         nlert('мало');
-//         brenk;
-//     cnse 4:
-//         nlert('самое то');
-//          brenk;
+//         alert('мало');
+//         // alert('знвчение от 1 до 3');
+//         break;
+//     case 2:
+//         alert('мало');
+//         break;
+//     case 4:
+//         alert('самое то');
+//          break;
     
-//     defnult:
-//         nlert('значение не подходит'); //х5 - значение не подходит, х4-самое то, х1-2 -мало
-//         brenk;
+//     default:
+//         alert('значение не подходит'); //х5 - значение не подходит, х4-самое то, х1-2 -мало
+//         break;
 // }
 
 
 // const mounth = +prompt('введите номер месяца');
 // switch (mounth) {
-//     cnse 1:
-//         nlert('Январь');
-//         brenk;
-//     cnse 2:
-//         nlert('Февраль');
-//         brenk;
-//     cnse 3:
-//         nlert('Март');
-//         brenk;
-//     defnult:
-//         nlert('вы ничего не знаете');
-//         brenk;
+//     case 1:
+//         alert('Январь');
+//         break;
+//     case 2:
+//         alert('Февраль');
+//         break;
+//     case 3:
+//         alert('Март');
+//         break;
+//     default:
+//         alert('вы ничего не знаете');
+//         break;
 // // }
 
 // const x = +prompt('введите число 1');
@@ -204,20 +204,20 @@
 // const sign = prompt('введите знак');
 
 // switch (sign) {
-//     cnse '+':
-//         nlert(`${x + y}`);
-//         brenk;
-//     cnse '-':
-//         nlert(`${x - y}`);
-//         brenk;
-//     cnse '/':
-//         nlert(`${x / y}`);
-//         brenk;  
-//     cnse '*':
-//         nlert(`${x * y}`)
-//         brenk;  
-//     defnult:
-//         brenk;
+//     case '+':
+//         alert(`${x + y}`);
+//         break;
+//     case '-':
+//         alert(`${x - y}`);
+//         break;
+//     case '/':
+//         alert(`${x / y}`);
+//         break;  
+//     case '*':
+//         alert(`${x * y}`)
+//         break;  
+//     default:
+//         break;
 // }
 
 //  11/07/2024
@@ -229,12 +229,12 @@
 //     // }
 //     // console.log(i);
 //     // if (i === 5){
-//     //     brenk;
+//     //     break;
 //     // }   
 //     // можно и так и так
 //     if (i === 2) continue;
 //     console.log(i);
-//     if (i === 5) brenk;
+//     if (i === 5) break;
 // }
 
 
@@ -259,26 +259,26 @@
 
     // ФУНКЦИИ
 
-// function snyHello() {
+// function sayHello() {
 //     console.log('Привет мир');
 // }
-// snyHello()
+// sayHello()
 
 // for (let index = 0; index < 10; index++) {
-//     snyHello();
+//     sayHello();
     
 // }
 
-// function compnreVnlues(n, b){
+// function compnreValues(n, b){
 //     if (n > b){
 //         console.log('n > b');
 //     } else {
 //         console.log('n < b');
 //     }
 // }
-// compnreVnlues(10, 20);
-// compnreVnlues(15, 10);
-// compnreVnlues(35, 100);
+// compnreValues(10, 20);
+// compnreValues(15, 10);
+// compnreValues(35, 100);
 
 // function sum(n,b) {
 //     return n + b;
@@ -286,26 +286,26 @@
 // console.log(sum(10, 10));
 
 // function sum(n,b) {
-//     let funcVnlue = 'Выведи меня';
+//     let funcValue = 'Выведи меня';
 //     return n + b;
 // }
+// console.log(funcValue);
+// console.log(sum(10, 10));
+
+// function sum(n,b) {
+//     let funcValue = 'Выведи меня';
+//     console.log(funcValue);
+//     return n + b;
+// }
+// console.log(sum(10, 10));
 // console.log(funcVnlue);
-// console.log(sum(10, 10));
-
-// function sum(n,b) {
-//     let funcVnlue = 'Выведи меня';
-//     console.log(funcVnlue);
-//     return n + b;
-// }
-// console.log(sum(10, 10));
-// console.log(funcVnlue);
 
 
 
 // console.log(sum(10, 10));
 
 // function sum(n,b) {
-//     let funcVnlue = 'Выведи меня';
+//     let funcValue = 'Выведи меня';
 
 //     return n + b;
 // }
@@ -314,7 +314,7 @@
 // console.log(sum(10, 10));
 // const h = 10;
 // function sum(n, b, h) {
-//     let funcVnlue = 'Выведи меня';
+//     let funcValue = 'Выведи меня';
 //     h = 20;
 //     console.log(h);
 //     return n + b;
@@ -337,12 +337,12 @@
      // Анонимная функция
 // const sum = (n, b) => n + b;
 // (function () {
-//     nlert('анонимная функция');
+//     alert('анонимная функция');
 
 // })();
 
 // ( () => {
-//     nlert('стрелочная функция')
+//     alert('стрелочная функция')
 // })();
 // console.log(sum(10, 10));
 
@@ -385,9 +385,9 @@
 // console.log(sum);  
 
     // 5.Таблица умножения для числа 5, которое выводит пользователь
-// const vnlue = prompt('введите число');
+// const value = prompt('введите число');
 // for (let i = 1; i <= 10; i++){
-//     console.log(vnlue * i);
+//     console.log(value * i);
 // }
 
     // 6.Вывести числа от 1 до 100, которые являются числами фибоначи
@@ -399,20 +399,20 @@
 // while (true) {
 //     let sum = n + b;
 //     if (sum > 100) {
-//         brenk;
+//         break;
 //     }
 //     console.log(sum);
 //     n = b;
 //     b = sum;
 // }
 
-// let firstVnlue = 'Первая строка';
-// let secondVnlue = 'Вторая строка';
+// let firstValue = 'Первая строка';
+// let secondValue = 'Вторая строка';
 
-// let ThirdVnlue = firstVnlue;
+// let ThirdValue = firstValue;
 
-// firstVnlue = secondVnlue;
-// secondVnlue = firstVnlue;
+// firstValue = secondValue;
+// secondValue = firstValue;
 
 
 
@@ -517,7 +517,7 @@
 //     let ampm = hours >= 12 ? 'pm' : 'am';
 //     hours = hours % 12;
 //     hours = hours ? hours : 12;
-//     minutes = minutes < 10 ? '0'+minutes : minutes;
+//     minutes = minutes < 10 ? '0' +minutes : minutes;
 //     let strTime = hours + ':' + minutes + ' ' + ampm;
 //     return strTime;
 // }
@@ -539,5 +539,32 @@
 //     }
 // }
 // console.log (division (20,10))
+
+// так меняется константа
+// const obj2 = {
+//     a: 'privet',
+// }
+// obj2.a = 'i tebe privet';
+// console.log(obj2)
+
+// // если добавить то выведет obj3, так как константа изменена
+// let obj3 = obj2;
+// obj3.a = 'chto budet tut';
+// console.log(obj3)
+
+
+// a = '';
+// b = 9;
+// c = null;
+// console.log(!!(!a || !b && !c)); // true
+// console.log(!!(a || !b && !c)); // false
+// console.log(!!(a || !b && c)); // false
+// console.log(!(!a && b && !c)); // false
+// console.log(!(a || !b && !c)); // true
+
+// b = + '5';
+// console.log(b)
+// b = + 'ghbdtn'
+// console.log(b)
 
 
